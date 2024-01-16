@@ -1,0 +1,22 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "firebase API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galmanus/firebase.git"
+  },
+  "keywords": [
+    "e21"
+  ],
+  "author": "Manuel Guilherme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galmanus/firebase/issues"
+  },
+  "homepage": "https://github.com/Galmanus/firebase#readme"
+}
