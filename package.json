@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Galmanus/sneakers/issues"
   },
-  "homepage": "https://github.com/Galmanus/sneakers#readme"
+  "homepage": "https://github.com/Galmanus/sneakers#readme",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
 }
