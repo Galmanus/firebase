@@ -20,8 +20,12 @@
   "bugs": {
     "url": "https://github.com/Galmanus/sneakers/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/Galmanus/sneakers#readme",
   "dependencies": {
     "Express": "^3.0.1"
   }
+=======
+  "homepage": "https://github.com/Galmanus/sneakers#readme"
+>>>>>>> 915fbce4032528f981a1e5440c53dea4888fb3c9
 }
