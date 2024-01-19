@@ -3,7 +3,7 @@ const app = express();
 
 // Configuração do Firebase
 const admin = require('firebase-admin');
-const serviceAccount = require('./caminho/para/seu/firebase-service-account.json');
+const serviceAccount = require('./sneaker-216ef-firebase-adminsdk-72g8g-a6ec8c2e3d.json');
 
 // Middlewares
 app.use(express.json());
