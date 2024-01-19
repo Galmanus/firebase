@@ -1,5 +1,5 @@
 # Criação de API com Firebase 
-Introdução
+* Introdução
 Este projeto é um guia abrangente para criar uma API utilizando Node.js e Firebase. Ele é projetado para orientar você passo a passo, desde a configuração do seu ambiente até a implementação e teste da sua API.
 
 **Objetivo**
