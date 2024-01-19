@@ -1,0 +1,24 @@
+{
+  "name": "sneakers",
+  "version": "1.0.0",
+  "description": "Firebase API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Galmanus/sneakers.git"
+  },
+  "keywords": [
+    "API",
+    "e21",
+    "Firebase"
+  ],
+  "author": "Manuel Guilherme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galmanus/sneakers/issues"
+  },
+  "homepage": "https://github.com/Galmanus/sneakers#readme"
+}
