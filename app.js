@@ -8,7 +8,7 @@ const serviceAccount = require('./sneaker-216ef-firebase-adminsdk-72g8g-a6ec8c2e
 // Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-
+g
 // Importar rotas
 const produtosRoutes = require('./routes/produtosRoutes');
 

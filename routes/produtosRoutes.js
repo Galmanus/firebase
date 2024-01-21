@@ -4,6 +4,7 @@ const ProdutoController = require('../controllers/ProdutoController');
 
 // Rota para criar um novo produto
 router.post('/produtos', ProdutoController.createProduto);
+ 
 
 // Rota para obter todos os produtos
 router.get('/produtos', ProdutoController.getAllProdutos);
