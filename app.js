@@ -8,12 +8,18 @@ const serviceAccount = require('./sneaker-216ef-firebase-adminsdk-72g8g-a6ec8c2e
 // Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-g
+
 // Importar rotas
 const produtosRoutes = require('./routes/produtosRoutes');
+const entradasRoutes = require('./routes/entradasRoutes');
+const saidasRoutes = require('./routes/saidasRoutes');
+
 
 // Usar rotas
 app.use('/api', produtosRoutes);
+app.use('/api', entradasRoutes);
+app.use('/api', saidasRoutes);
+
 
 // Iniciar o servidor
 const PORT = process.env.PORT || 3000;
