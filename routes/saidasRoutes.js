@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const SaidaController = require('../controllers/SaidaController');
+const saidaController = require('../controllers/SaidaController');
 
 // Rota para criar uma nova saida
 router.post('/saidas', saidaController.createSaida);
