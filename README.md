@@ -79,7 +79,7 @@ npm install express firebase-admin
 
 **3. Configurar o Firebase**
 
-Acesse o Console do Firebase e crie um novo projeto, se ainda não tiver um. Na seção de configurações do projeto, navegue até "Contas de serviço" e gere uma nova chave privada para o Admin SDK. Salve o arquivo JSON da chave privada (por exemplo sneaker-216ef-firebase-adminsdk-72g8g-a6ec8c2e3d.json) no diretório raiz do seu projeto.
+Acesse o Console do Firebase e crie um novo projeto, se ainda não tiver um. Na seção de configurações do projeto, navegue até "Contas de serviço" e gere uma nova chave privada para o Admin SDK. Salve o arquivo JSON da chave privada  no diretório raiz do seu projeto.
 
 **4. Estruturar o Projeto**
 
