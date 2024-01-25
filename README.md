@@ -96,7 +96,7 @@ Isso iniciará o servidor na porta especificada (por padrão, 3000) e exibirá a
 
 **6. Acessar a Aplicação**
 
-Abra um navegador ou use uma ferramenta como Postman para enviar requisições HTTP para as rotas definidas (por exemplo, http://localhost:3000/api/produtos para acessar as rotas de produtos).
+Abra um navegador ou use uma ferramenta como Postman para enviar requisições HTTP para as rotas definidas (por exemplo, http://localhost:3001/api/produtos para acessar as rotas de produtos).
 
 
 # Notas Importantes:

@@ -3,10 +3,10 @@ const router = express.Router();
 const EntradaController = require('../controllers/EntradaController');
 
 // Rota para criar uma nova entrada
-router.post('/entradas', EntradaController.createEntrada);
+router.post('/entradas/:id', EntradaController.createEntrada);
 
 // Rota para obter todos as entradas
-router.get('/entradas', EntradaController.getAllEntradas);
+router.get('/entradas/:id', EntradaController.getAllEntradas);
 
 // Rota para obter uma entrada pelo ID
 router.get('/entradas/:id', EntradaController.getEntradaById);
