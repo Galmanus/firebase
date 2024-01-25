@@ -5,7 +5,7 @@ const db = require('../firebaseConfig');
 const ProdutoController = {
     // Função assíncrona para criar um produto
     createProduto: async (req, res) => {
-        // Verifica se o documento do produto já existe (linha parece estar desatualizada ou incorreta, pois produtoDoc não é definido previamente)
+       
         try {
             // Cria uma referência para um novo documento na coleção 'produtos'
             const produtoRef = db.collection('produtos').doc();
