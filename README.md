@@ -63,3 +63,47 @@ Uso de ferramentas como Postman ou Insomnia para testar as rotas da API
 
 
 
+
+
+**1. Configurar o Projeto Node.js**
+
+Abra um terminal ou prompt de comando.
+Navegue até o diretório onde deseja criar o projeto.
+Execute npm init -y para criar um novo projeto Node.js com um arquivo package.json padrão.
+
+**2. Instalar Dependências**
+
+Instale o Express e o Firebase Admin SDK executando o comando:
+
+npm install express firebase-admin
+
+**3. Configurar o Firebase**
+
+Acesse o Console do Firebase e crie um novo projeto, se ainda não tiver um. Na seção de configurações do projeto, navegue até "Contas de serviço" e gere uma nova chave privada para o Admin SDK. Salve o arquivo JSON da chave privada (por exemplo sneaker-216ef-firebase-adminsdk-72g8g-a6ec8c2e3d.json) no diretório raiz do seu projeto.
+
+**4. Estruturar o Projeto**
+
+Crie um arquivo  app.js  e cole o código fornecido.
+Crie um diretório routes e, dentro dele, os arquivos produtosRoutes.js, entradasRoutes.js e saidasRoutes.js. Defina as rotas conforme a lógica desejada para produtos, entradas e saídas.
+
+
+**5. Executar o Servidor**
+
+No terminal, no diretório raiz do seu projeto, execute o comando:
+
+node index.js
+Isso iniciará o servidor na porta especificada (por padrão, 3000) e exibirá a mensagem "ServidCopy codeor rodando na porta 3000" no console.
+
+**6. Acessar a Aplicação**
+
+Abra um navegador ou use uma ferramenta como Postman para enviar requisições HTTP para as rotas definidas (por exemplo, http://localhost:3000/api/produtos para acessar as rotas de produtos).
+
+
+# Notas Importantes:
+
+Certifique-se de adicionar o arquivo JSON da chave privada do Firebase ao .gitignore antes de comitar seu código, para evitar expor informações sensíveis.
+Verifique a documentação do Express e do Firebase Admin SDK para mais detalhes sobre como expandir e personalizar sua aplicação.
+
+
+
+
