@@ -3,8 +3,8 @@ const db = require('../firebaseConfig');
 const EntradaController = {
     createEntrada: async (req, res) => {
         try {
-            const produtoId = req.body.produtoId; // Substitua com o campo apropriado do seu req.body
-            const produtoRef = db.collection('estoque').doc(produtoId); // Ajuste o nome da coleção conforme necessário
+            const produtoId = req.body.produtoId; 
+            const produtoRef = db.collection('estoque').doc(produtoId); 
             const produtoDoc = await produtoRef.get();
 
             if (!produtoDoc.exists) {
