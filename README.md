@@ -92,7 +92,7 @@ Crie um diretório routes e, dentro dele, os arquivos produtosRoutes.js, entrada
 No terminal, no diretório raiz do seu projeto, execute o comando:
 
 node index.js
-Isso iniciará o servidor na porta especificada (por padrão, 3000) e exibirá a mensagem "ServidCopy codeor rodando na porta 3000" no console.
+Isso iniciará o servidor na porta especificada (por padrão, 3001) e exibirá a mensagem "ServidCopy codeor rodando na porta 3000" no console.
 
 **6. Acessar a Aplicação**
 
